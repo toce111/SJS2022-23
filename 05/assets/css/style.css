@@ -1,0 +1,29 @@
+body {
+    /* background-color:blue; */
+    /* background-color:rgb(132, 50, 153); */
+    /* background-color:rgba(132, 50, 153, 0.6); */
+    /* background-color:  #3b5998; */
+    background-image: url("../images/aaa.jpg");
+    /* background-repeat: no-repeat; */
+    background-repeat: repeat-y;
+    background-position: center;
+    background-size: 600px;
+}
+
+h1 {
+    color: white;
+    font-size: 40px;
+}
+
+#language {
+    font-size: 80px;
+    color:green;
+}
+
+.some-text{
+    color: blue;
+}
+
+#text{
+    color:yellow;
+}
