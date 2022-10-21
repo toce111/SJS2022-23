@@ -1,0 +1,37 @@
+body{
+    /* margin: 100px; */
+    /* margin-top: 100px; */
+    /* margin: 50px 30px 10px 49px; */
+    /* margin: 100px 0px; */
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+.box{
+    width: 200px;
+    height: 200px;
+    background-color: black;
+    /* display: inline-block; */
+    float: left;
+    margin: 0px 50px 0px 0px; /* gore, desno, dole, levo */
+    padding: 20px;
+}
+
+.box2 {
+    width: 200px;
+    height: 200px;
+    background-color: green;
+    /* display:inline-block; */
+    float: left;
+}
+
+.link{
+    margin-left: 50px;
+    background-color: red;
+    padding: 15px 25px;
+    display:inline-block;
+    color: #FFFF;
+    border-radius: 10px;
+    text-decoration: none;
+    font-weight: bold;
+}

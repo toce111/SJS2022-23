@@ -1,0 +1,78 @@
+body{
+    margin: 0px;
+}
+
+.zname1{
+    float: left;
+    width: 300px;
+    height: 200px;
+}
+.zname1b{
+    background-color: blue;
+    width: 100px;
+    height: 200px;
+    float: left;
+}
+.zname2b{
+    background-color: white;
+    width: 100px;
+    height: 200px;
+    float: left;
+}
+.zname3b{
+    background-color: red;
+    width: 100px;
+    height: 200px;
+    float: left;
+}
+.zname2{
+    margin-left: 20px;
+    float: left;
+    width: 300px;
+    height: 200px;
+}
+.zname2b1{
+
+    width: 300px;
+    height: 70px;
+    background-color:brown;
+
+}
+.zname2b2{
+
+    width: 300px;
+    height: 60px;
+    background-color:darkblue;
+    
+}
+.zname2b3{
+    width: 300px;
+    height: 70px;
+    background-color:burlywood;
+}
+
+.zname3{
+    float: left;
+    width: 300px;
+    height: 200px;
+    margin-left: 20px;
+}
+
+.zname-left{
+    width: 100px;
+    height: 200px;
+    background-color: green;
+    float: left;
+}
+.zname-desno-gore{
+    width: 200px;
+    height: 100px;
+    background-color: yellow;
+    float: left;
+}
+.zname-desno-dole{
+    width: 200px;
+    height: 100px;
+    background-color: red;
+    float: left;
+}
