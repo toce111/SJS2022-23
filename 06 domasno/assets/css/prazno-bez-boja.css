@@ -1,0 +1,111 @@
+body{
+    margin: 0px;
+    font-family: sans-serif;
+    margin-left: 5px;
+}
+
+.header{
+    display:inline-block;
+}
+
+.header-glaven{
+    width: 200px;
+    height: 125px;
+    display: inline-block;
+}
+
+.header-dodatni1{
+    width: 75px;
+    height: 30px;
+    margin-left: 75px;
+    margin-bottom: 50px;
+    display: inline-block;
+}
+
+.header-dodatok{
+    width: 75px;
+    height: 30px;
+    margin-left: 2px;
+    margin-bottom: 50px;
+    display: inline-block;
+}
+
+.body{
+    width: 692.25px;
+    height: 131px;
+    margin-top: 10px;
+    display: block;    
+}
+
+.border{
+    border: 1px;
+    border-color: rgb(167, 166, 166);
+    border-style: solid;
+}
+
+.margin-main{
+    margin-left:15px;
+}  
+
+.body-left{
+    width: 165px;
+    height: 423px;
+    display: block;
+    float: left;
+}
+
+.body-top{
+    width: 508px;
+    height: 100px;
+    display: block;
+    float: left;
+}
+
+.body-main{
+    width: 380px;
+    height: 180px;
+    display: block;   
+    float: left;
+    margin-top: 120px;
+}
+
+.body-main-right{
+    width: 104px;
+    height: 180px;
+    margin-top: 120px;
+    margin-left: 20px;
+    display: block;
+    float: left;
+}
+
+.body-main-boxes{
+    width: 100px;
+    height: 100px;
+    margin-top: 20px;
+    display: block;
+    float: left;
+}
+
+.body-main-boxes1{
+    width: 100px;
+    height: 100px;
+    margin-top: 20px;
+    display: block;
+    float: left;
+    margin-left: 33px;
+}
+
+.footer{
+    width: 689px;
+    height: 159px;
+    margin-top: 318px;
+    display: block;
+}
+
+.color{
+    background-color: rgb(213, 213, 213);
+}
+
+.color-border{
+    background-color: rgb(167, 166, 166);
+}
