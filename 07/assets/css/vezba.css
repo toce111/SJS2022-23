@@ -1,0 +1,26 @@
+body{
+    margin: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.parent{
+    width: 800px;
+    height: 800px;
+    background-color: orange;
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+}
+
+.box{
+    background-color: yellow;
+    color: #000;
+    font-size: 50px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 1;
+}
