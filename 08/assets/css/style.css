@@ -1,0 +1,58 @@
+body {
+    margin: 0px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.box-holder {
+    background-color: maroon;
+    width: 900px;
+    margin: 50px auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    /* gap: 50px; */
+    /* row-gap: 20px; */
+    /* column-gap: 100px; */
+}
+
+.box {
+    /* width: 100px; */
+    /* height: 100px; */
+    background-color: aquamarine;
+    border: 1px solid #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 22px;
+    padding: 50px;
+}
+
+.box-1 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+.box-5 {
+    grid-column-start: 3;
+    grid-column-end: 4;
+}
+
+.box-6 {
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+
+.box-4 {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 4;
+}
+
+.box-5{
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 4;
+}
+

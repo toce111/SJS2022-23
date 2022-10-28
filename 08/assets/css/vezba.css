@@ -1,0 +1,84 @@
+body {
+    margin: 0px;
+}
+
+.parent {
+    background-color: rgb(9, 9, 82);
+    display: grid;
+    width: 800px;
+    grid-template-columns: repeat(4, 1fr);
+    gap:20px;
+    padding: 20px;
+}
+
+.box {
+    padding: 50px;
+}
+
+.box-1 {
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 1;
+    grid-row-end: 4;
+}
+
+.box-2 {
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 1;
+}
+
+.box-3 {
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 1;
+}
+
+.box-4 {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 2;
+}
+
+.box-5 {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 2;
+}
+
+.box-6 {
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 2;
+    grid-row-end: 4;
+}
+
+.box-7 {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 3;
+}
+
+.box-8 {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 3;
+    grid-row-end: 3;
+}
+
+.green {
+    background-color: rgb(99, 245, 62);
+}
+
+.red {
+    background-color: rgb(250, 41, 41);
+}
+
+.orange {
+    background-color: rgb(255, 175, 70);
+}
