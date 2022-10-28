@@ -71,6 +71,8 @@ body {
     grid-row-end: 3;
 }
 
+ /* COLORS */
+ 
 .green {
     background-color: rgb(99, 245, 62);
 }
