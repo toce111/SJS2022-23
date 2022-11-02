@@ -1,0 +1,10 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@media only screen and (max-width: 1200px) {
+    body {
+        background-color: #399393;
+    }
+}
