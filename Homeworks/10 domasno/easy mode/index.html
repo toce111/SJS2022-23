@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Easy mode - IMDB</title>
+    <link rel="stylesheet" type="text/css" href="./assets/css/style.css" />
+    <script src="https://kit.fontawesome.com/472b72c868.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet" />
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="header">
+                <div class="imdb-logo">
+                    <a href="#"><img src="./assets/images/imdb-logo.png" alt="imdb-logo" class="imdb-logo" /></a>
+                </div>
+                <div class="menu">
+                    <li class="menu-text">
+                        <i class="fa-sharp fa-solid fa-list" style="color: rgb(105, 105, 105)"></i>
+                        <span>Menu</span>
+                        <ul class="menu-dropdown">
+                            <a href="#">Movies</a>
+                            <a href="#">TV Shows</a>
+                            <a href="#">Celebs</a>
+                            <a href="#">Community</a>
+                        </ul>
+                    </li>
+                </div>
+                <div class="search">
+                    <div class="all-box">
+                        <a href="#" class="all-text">All <i class="fa-sharp fa-solid fa-sort-down" id="icon3"></i>
+                        </a>
+                        <ul class="all-dropdown">
+                            <a href="#" id="all-yellow">All</a>
+                            <a href="#">Titles</a>
+                            <a href="#">TV Episodes</a>
+                            <a href="#">Companies</a>
+                        </ul>
+                    </div>
+                    <div class="search-bar">
+                        <input type="text" placeholder="Search IMDb" class="search-field" />
+                        <a href="#">
+                            <i class="fa-solid fa-magnifying-glass" id="search-icon"></i></a>
+                    </div>
+                </div>
+                <a href="#">
+                    <div class="imdb-pro">
+                        <span id="imdb-pro-color">IMDbPro</span>
+                    </div>
+                </a>
+                <div class="vertical-line"></div>
+                <a href="#">
+                    <div class="watch-list">
+                        <i class="fa-solid fa-bookmark"></i>
+                        <span>Watchlist</span>
+                    </div>
+                </a>
+                <a href="#">
+                    <div class="sign-in">
+                        <span>Sign in</span>
+                    </div>
+                </a>
+                    <div class="languages">
+                        <span>EN</span>
+                        <i class="fa-sharp fa-solid fa-sort-down" id="icon4"></i>
+                        <ul class="languages-dropdown">
+                            <a href="#">MK <img src="./assets/images/mk-flag.png" alt="mk-flag" id="flag-mkd"/></a>
+                            <a href="#">FR <img src="./assets/images/fr-flag.png" alt="fr-flag" id="flag-fr"/></a>
+                        </ul>
+                    </div>
+                </a>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <div class="topRightHeader">
+            <div class="headers">
+                <div class="CastnCrew">
+                <span><a href="#">Cast & crew</a></span>
+                </div>
+                <span style="font-size: 12px;">•</span>
+                <div class="UserReviews">
+                <span><a href="#">User reviews</a></span>
+                </div>
+                <span style="font-size: 12px;">•</span>
+                <div class="Trivia">
+                <span><a href="#">Trivia</a></span>
+                </div>
+                <div class="vertical-lineh"></div>
+                <div class="imdbpro">
+                    <span><a href="#">IMDbPro</a></span>
+                </div>
+                <div class="vertical-lineh"></div>
+                <div class="AllTopics">
+                <a href="#"><i class="fa-solid fa-table-cells-large"></i>
+                <span>All Topics</a></span>
+                </div>
+                <div class="vertical-lineh"></div>
+                <div class="Share">
+                    <a href="#"><i class="fa-solid fa-share-nodes"></a></i>
+                </div>
+            </div>
+        </div>
+        <div class="mainContent">
+            <div class="title">
+                <span>Barbarian</span>
+                <div class="under-title">
+                    <ul>
+                        <li id="ut-year"><a href="#">2022</a></li>
+                        <span style="font-size: 8px;">•</span>
+                        <li id="ut-parents"><a href="#">R</a></li>
+                        <span style="font-size: 8px;">•</span>
+                        <li>1h 42m</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="ratings">
+                <div class="IMDbRating">
+                    <span id="globalrate-text">IMDb RATING</span>
+                        <a href="#"><div class="star-rating">
+                            <i class="fa-solid fa-star" style="color: yellow;"></i>
+                            <span id="s-r-text">7.2</span>
+                            <span id="s-r-text2">/10</span>
+                            <span id="s-r-text3">53K</span>
+                        </a></div>
+                </div>
+                <div class="YourRating">
+                    <span id="yourrate-text">YOUR RATING</span>
+                    <a href="#"><div class="yr-description">
+                        <i class="fa-regular fa-star"></i>
+                        <span>Rate</span>
+                    </a></div>
+                </div>
+                <div class="Popularity">
+                    <span id="popularity-text">POPULARITY</span>
+                    <a href="#"><div class="popular-description">
+                        <i class="fa-solid fa-arrow-trend-up" style="color: green;"></i>
+                        <span id="p-d-number">2</span>
+                        <i class="fa-sharp fa-solid fa-sort-up" style="font-size: 10px; color: #4f4f4f"></i>
+                        <span id="p-d-number-second">31</span>
+                    </a></div>
+                </div>
+            </div>
+            <div class="movieArea">
+                <div class="moviePoster pos-1">
+                    <a href="#"><img src="./assets/images/MoviePoster.png" alt="MoviePoster"/></a>
+                </div>
+                <div class="movieVideo pos-2">
+                    <iframe src="https://www.youtube.com/embed/-fkbig10TD8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+                <a href="#" class="blankBox pos-3 text">
+                    <div>
+                    <i class="fa-sharp fa-solid fa-film"></i>
+                    <span id="video-text">4 Videos</span>
+                    </div>
+                </a>
+                <a href="#" class="blankBox pos-4 text">
+                    <div>
+                    <i class="fa-regular fa-images"></i>
+                    <span id="photo-text">70 Photos</span>
+                    </div>
+                </a>
+            </div>
+            <div class="aboutArea">
+                <div class="leftSide">
+                    <div class="movieType">
+                        <a href="#"><span class="movieType-horror">Horror</span></a>
+                        <a href="#"><span class="movieType-thriller">Thriller</span></a>
+                    </div>
+                    <div class="descriptionMovie">
+                        <p id="descriptionText">A woman staying at an Airbnb discovers that the house she has rented is not what it seems.</p>
+                    </div>
+                    <div class="cast">
+                        <hr>
+                        <p><b>Director</b> <a href="#">Zach Cregger</a></p>
+                        <hr>
+                        <p><b>Writer</b> <a href="#">Zach Cregger</a></p>
+                        <hr>
+                        <p><b>Stars</b> <a href="#">Georgina Campbell</a> • <a href="#">Bill Skarsgård</a> • <a href="#">Justin Long</a> <a href="#" style="color:#ffff;float: right;">></a></p>
+                        <hr>
+                    </div>
+                    <div class="companyInfo">
+                        <a href="#">
+                            <div class="imdbProLogo">
+                                <span id="imdb-pro-color">IMDbPro</span>
+                                <p class="companyInfoText"><a href="#">See production, box office & company info <i class="fa-sharp fa-solid fa-share-from-square" style="font-size: 14px;"></i></a></p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="rightSide">
+                    <div class="addtoWatchlist">
+                        <a href="#">
+                            <div class="thebutton"><i class="fa-solid fa-plus"></i>Add to Watchlist</div>
+                        </a>
+                        <a href="#">
+                            <div class="emptyBox">
+                                <i class="fa-sharp fa-solid fa-sort-down"></i></div>
+                        </a>
+                    </div>
+                    <div class="reviews">
+                        <div class="userReviews">
+                            <span><a href="#" class="bold">600</a></span> 
+                            <span><a href="#" class="space">User reviews</a></span>
+                        </div>
+                        <div class="criticReviews">
+                            <span><a href="#" class="bold">147</a></span>
+                            <span><a href="#" class="space">Critic reviews</a></span>
+                        </div>
+                        <div class="metaScore">
+                            <span><a href="#" class="bold greenBox">78</a></span>
+                            <span><a href="#" class="space blue">Metascore</a></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>
