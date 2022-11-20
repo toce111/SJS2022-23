@@ -1,0 +1,36 @@
+<html>
+    <head>
+        <title>01 Homework - Basics of Javascript</title>
+
+        <script>
+            // The lifetime support Calculator
+            var currentAge = 19;
+            var maxAge = 80;
+            var snackPerDay = 4;
+            var year = 365;
+            result = (maxAge - currentAge + year)*3;
+
+            console.log("You will need " + result + " to last you until the ripe old age of " + maxAge);
+
+            // The Geometrizer
+            var radius = parseFloat(prompt("Type in the radius to calculate: "));
+            PI = 3.14;
+            var circumference = ((2*PI)*radius);
+            console.log("The circumference of the circle is " + circumference + " cm.");
+            var area = (PI*(radius*radius));
+            console.log("The area of the circle is " + area + " cm².");
+
+            // Temperature converter
+            var celsiusTemp = parseFloat(prompt("Type in the celsius temperature to convert in fahrenheit: "));
+            var fahrenheitTemp = ((celsiusTemp/5)*9+32);
+            console.log(celsiusTemp + "°C" + " is " + fahrenheitTemp + "°F");
+            var fahrenheitTemp = parseFloat(prompt("Type in the fahrenheit temperature to convert in celsius: "));
+            var celsiusTemp = (((fahrenheitTemp-32)*5)/9);
+            console.log(fahrenheitTemp + "°F" + " is " + celsiusTemp + "°C")
+        </script>
+    </head>
+    
+    <body>
+        <p>turn on the devtools n go into the console, there is nothing here.</p>
+    </body>
+</html>
