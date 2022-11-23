@@ -18,7 +18,7 @@ if(code == "es") {
     document.write("Check your spelling and try again.");
 };
 
-// SEASONS (if statement)
+// SEASONS (if statement) 
 
 var seasons = prompt("Enter any month of the year and i will tell you the season: ")
 if (seasons === "september" || seasons === "october" || seasons === "november"){
