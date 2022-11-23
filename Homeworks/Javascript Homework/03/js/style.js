@@ -49,48 +49,48 @@ switch (band_members_num) {
     break;
     case "2":
         console.log("The band is duo.");
-        alert("The band is dos.");
-        document.write("The band is dos.");
+        alert("The band is duo.");
+        document.write("The band is duo.");
     break;
     case "3":
         console.log("The band is trio.");
-        alert("The band is tres.");
-        document.write("The band is tres.");
+        alert("The band is trio.");
+        document.write("The band is trio.");
     break;
     case "4":
         console.log("The band is quartet.");
-        alert("The band is cuatro.");
-        document.write("The band is cuatro.");
+        alert("The band is quartet.");
+        document.write("The band is quartet.");
     break;
     case "5":
         console.log("The band is quintet.");
-        alert("The band is cinco.");
-        document.write("The band is cinco.");
+        alert("The band is quintet.");
+        document.write("The band is quintet.");
     break;
     case "6":
         console.log("The band is sextet.");
-        alert("The band is seis.");
-        document.write("The band is seis.");
+        alert("The band is sextet.");
+        document.write("The band is sextet.");
     break;
     case "7":
         console.log("The band is septet.");
-        alert("The band is siete.");
-        document.write("The band is siete.");
+        alert("The band is septet.");
+        document.write("The band is septet.");
     break;
     case "8":
         console.log("The band is octet.");
-        alert("The band is ocho.");
-        document.write("The band is ocho.");
+        alert("The band is octet.");
+        document.write("The band is octet.");
     break;
     case "9":
         console.log("The band is nonet.");
-        alert("The band is nueve.");
-        document.write("The band is nueve.");
+        alert("The band is nonet.");
+        document.write("The band is nonet.");
     break;
     case "10":
         console.log("The band is decet.");
-        alert("The band is diez.");
-        document.write("The band is diez.");
+        alert("The band is decet.");
+        document.write("The band is decet.");
     break;
     default: alert("Check your spelling maybe your number is above 10.");
 }
