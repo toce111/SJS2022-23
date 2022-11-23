@@ -48,47 +48,47 @@ switch (band_members_num) {
         document.write("The band is uno.");
     break;
     case "2":
-        console.log("The band is dos.");
+        console.log("The band is duo.");
         alert("The band is dos.");
         document.write("The band is dos.");
     break;
     case "3":
-        console.log("The band is tres.");
+        console.log("The band is trio.");
         alert("The band is tres.");
         document.write("The band is tres.");
     break;
     case "4":
-        console.log("The band is cuatro.");
+        console.log("The band is quartet.");
         alert("The band is cuatro.");
         document.write("The band is cuatro.");
     break;
     case "5":
-        console.log("The band is cinco.");
+        console.log("The band is quintet.");
         alert("The band is cinco.");
         document.write("The band is cinco.");
     break;
     case "6":
-        console.log("The band is seis.");
+        console.log("The band is sextet.");
         alert("The band is seis.");
         document.write("The band is seis.");
     break;
     case "7":
-        console.log("The band is siete.");
+        console.log("The band is septet.");
         alert("The band is siete.");
         document.write("The band is siete.");
     break;
     case "8":
-        console.log("The band is ocho.");
+        console.log("The band is octet.");
         alert("The band is ocho.");
         document.write("The band is ocho.");
     break;
     case "9":
-        console.log("The band is nueve.");
+        console.log("The band is nonet.");
         alert("The band is nueve.");
         document.write("The band is nueve.");
     break;
     case "10":
-        console.log("The band is diez.");
+        console.log("The band is decet.");
         alert("The band is diez.");
         document.write("The band is diez.");
     break;
