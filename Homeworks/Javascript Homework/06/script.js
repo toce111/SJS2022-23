@@ -29,8 +29,8 @@ var ListItems = document.getElementsByClassName("list-item");
 
 ListItems[0].innerHTML = "Python";
 ListItems[1].innerHTML = "C++";
-ListItems[3].innerHTML = "Javascript";
 ListItems[2].innerHTML = "React";
+ListItems[3].innerHTML = "Javascript";
 ListItems[4].innerHTML = "Haskell";
 
 
