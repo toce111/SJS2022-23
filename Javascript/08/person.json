@@ -1,0 +1,11 @@
+{
+    "name": "Antonio Nestorovski",
+    "location": "Aerodrom, Skopje, Macedonia",
+    "age": 19,
+    "hobbies": ["javascript", "film", "photography"],
+    "address": {
+        "street": "Bul. Riste Ristov 1000",
+        "apartment": 68
+    },
+    "has_drivers_license": true
+}
