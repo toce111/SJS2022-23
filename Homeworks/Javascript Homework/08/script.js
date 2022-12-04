@@ -36,4 +36,4 @@ fetch("https://jsonplaceholder.typicode.com/photos")
         }
     }).catch(error => {
         console.log(error);
-    });
+    }); 
