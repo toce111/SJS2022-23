@@ -1,13 +1,3 @@
-// const api_url = "https://jsonplaceholder.typicode.com/users";
-//     async function usersFromAPI() {
-//     const response = await fetch(api_url);
-//     const data = await response.json();
-//     console.log(data);
-//     };
-
-// usersFromAPI();
-
-
 fetch("https://jsonplaceholder.typicode.com/users")
     .then(res => {
         console.log(res);
